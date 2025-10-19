@@ -1,0 +1,140 @@
+.skillsSectionContainer {
+  padding-top: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillsSection {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionHeading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sectionHeadingArticle {
+  font-size: 3rem;
+  font-family: var(--font-fira-code);
+  font-weight: 500;
+  background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sectionHeadingP {
+  width: 300px;
+  height: 1px;
+  background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+}
+
+.frontendDevSection {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.frontendDevHeading {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 900;
+  height: 100px;
+  letter-spacing: 5px;
+  background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.techStackWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.techStackBox {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
+  border: 1px solid var(--tech-stack-box-border-color);
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.techStackBox:hover {
+  transform: translateY(-10px);
+}
+
+.techStackBox img {
+  width: 80%;
+}
+
+.needInvert {
+  filter: brightness(0) invert(1);
+}
+
+.tooltip {
+  position: absolute;
+  top: -20px;
+  opacity: 0;
+  background: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
+  border: 1px solid var(--tech-stack-box-border-color);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.2s;
+  pointer-events: none;
+  letter-spacing: 0.5px;
+  font-size: 1.6rem;
+  backdrop-filter: blur(5px);
+  font-weight: 500;
+}
+
+.techStackBox:hover .tooltip {
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 1200px) {
+  .skillsSection {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .techStackWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .techStackBox {
+    width: 100%;
+    height: calc(76vw / 2);
+  }
+}
+
