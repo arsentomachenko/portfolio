@@ -25,6 +25,7 @@ const techStack = [
   { name: 'TAILWIND', img: '/src/png/tailwind.png' },
   { name: 'REACTJS', img: '/src/png/reactlogo.png' },
   { name: 'NEXTJS', img: '/src/png/nextlogo.png' },
+  { name: 'Svelte', img: '/src/png/svelte.png' },
   { name: 'NODEJS', img: '/src/png/node.png' },
   { name: 'kotlin', img: '/src/png/kotlin.png' },
   { name: 'flutter', img: '/src/png/flutter.png' },
