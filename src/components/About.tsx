@@ -52,15 +52,6 @@ export default function About() {
               <div className={styles.text}>Resume</div>
             </button>
           </div>
-
-          <motion.div
-            className={styles.dp}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={inView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <img src="/arsen.png" alt="Arsen Tomachenko" tabIndex={0} aria-label="image of arsen" />
-          </motion.div>
         </div>
       </motion.div>
     </section>
