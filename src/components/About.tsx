@@ -32,15 +32,7 @@ export default function About() {
         <div className={styles.infoDpSection}>
           <div className={styles.aboutInfo}>
             <p tabIndex={0}>
-              I'm a senior full-stack developer & DevOps engineer with over 11 years of experience in software development. My expertise lies particularly in video streaming technologies, where I’ve built and optimized high-performance systems from the ground up. I don’t just develop projects—I focus on deeply understanding both functional and non-functional requirements to deliver robust solutions from system design to deployment and maintenance. 
-            </p>
-            <br />
-            <p tabIndex={0}>
-              I approach every project with a beginner’s mindset, continually learning and applying new insights to enhance my work. 
-            </p>
-            <br />
-            <p tabIndex={0}>
-              Over the past three years, I've developed a strong interest in artificial intelligence, exploring its integration into real-world applications and achieving several successful implementations.
+              I am a Senior Software Engineer with over 11 years of professional experience in software development. My expertise spans web, mobile, and interactive application development, with strong hands-on experience in C# and Unity for building real-time and immersive applications. I have a deep background in video streaming and processing technologies and extensive experience handling client requirements end to end—from system architecture and development to production deployment and maintenance. Recently, I have developed a strong interest in AI-driven image and video processing, where I have already made notable progress. I approach every project with a beginner's mindset, continuously learning and striving to deliver intelligent, reliable, and high-quality solutions.
             </p>
 
             <button className={styles.resumeBtn} onClick={openResume}>

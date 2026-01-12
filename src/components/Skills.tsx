@@ -7,6 +7,7 @@ import styles from './Skills.module.css'
 const techStack = [
   { name: 'C', img: '/src/png/clogo.png' },
   { name: 'C++', img: '/src/png/cpplogo.png' },
+  { name: 'C#', img: '/src/png/csharp.png' },
   { name: 'JS', img: '/src/png/jslogo.png' },
   { name: 'Golang', img: '/src/png/golang.png' },
   { name: 'Python', img: '/src/png/python.png' },

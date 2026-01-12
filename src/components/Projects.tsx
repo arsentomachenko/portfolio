@@ -7,6 +7,22 @@ import styles from './Projects.module.css'
 const projects = [
   {
     id: 1,
+    title: 'Ether Legends',
+    description: 'A collectible trading card game powered by Enjin, featuring blockchain-backed NFTs, real-time battles, and a play-to-earn ecosystem on Polygon.',
+    preview: '/src/webp/EtherLegend.webp',
+    liveLink: 'https://tcg.etherlegends.com/',
+    githubLink: null,
+  },
+  {
+    id: 2,
+    title: 'Animal Debt Disaster',
+    description: 'A quirky puzzle-maze game where you rescue unusual animals with absurd tools. Navigate chaotic rooms, solve wacky dilemmas, and save your bank account in this zany adventure.',
+    preview: '/src/webp/AnimalDebtDisaster.webp',
+    liveLink: 'https://play.google.com/store/apps/details?id=com.GSPmobilegames.asdd&hl=en',
+    githubLink: null,
+  },
+  {
+    id: 3,
     title: 'Broadcast Live Video',
     description: 'Live stream HTML5 WebRTC/HLS browser compatible, from WebRTC (web pc/mobile) / RTMP (OBS/Larix) / RTSP (IP cameras)',
     preview: '/src/webp/broadcastlivevideo.webp',
@@ -14,7 +30,7 @@ const projects = [
     githubLink: null,
   },
   {
-    id: 2,
+    id: 4,
     title: 'FansPaysite',
     description: 'Deploy the FansPaysitecom digital monetization & live video streaming platform, in matter of days, for a fraction of development costs, without profit sharing or approval from app stores.',
     preview: '/src/webp/fanspaysite.webp',
@@ -22,7 +38,7 @@ const projects = [
     githubLink: null,
   },
   {
-    id: 3,
+    id: 5,
     title: 'Aps Smart Hub',
     description: 'A beautiful, user-friendly, display and mobile application fully integrated with our alerting controller to get you on the scene faster.',
     preview: '/src/webp/apssmarthub.webp',
@@ -30,7 +46,7 @@ const projects = [
     githubLink: null,
   },
   {
-    id: 4,
+    id: 6,
     title: 'Red5 Pro',
     description: 'Video streaming platform for live video streaming, recording, and playback.',
     preview: '/src/webp/red5.webp',
@@ -38,7 +54,7 @@ const projects = [
     githubLink: null,
   },
   {
-    id: 5,
+    id: 7,
     title: 'Mind.com',
     description: 'Video meetings reimagined — now at mind.com',
     preview: '/src/webp/imind.webp',
@@ -46,7 +62,7 @@ const projects = [
     githubLink: null,
   },
   {
-    id: 6,
+    id: 8,
     title: 'Netcam',
     description: 'Deploy the FansPaysitecom digital monetization & live video streaming platform, in matter of days, for a fraction of development costs, without profit sharing or approval from app stores.',
     preview: '/src/webp/netcam.webp',
@@ -54,7 +70,7 @@ const projects = [
     githubLink: null,
   },
   {
-    id: 7,
+    id: 9,
     title: 'PushDoctor',
     description: 'Contributed to the development and optimization of Push Doctor, a leading UK telemedicine platform enabling patients to consult with licensed doctors via secure video calls. Worked on iOS and Android app enhancements using Swift and Kotlin, improving video stability, in-app chat, and appointment booking workflows. Integrated WebRTC for real-time consultations and FHIR-compliant APIs for medical data exchange. Enhanced backend performance and scalability using Node.js, RESTful APIs, and AWS services to handle large volumes of concurrent sessions. Collaborated with product, QA, and compliance teams to ensure GDPR, HIPAA, and NHS Digital security standards were met.',
     preview: '/src/webp/pushdocter.webp',
@@ -62,13 +78,14 @@ const projects = [
     githubLink: null,
   },
   {
-    id: 8,
+    id: 10,
     title: 'himynameisapp',
     description: 'Pexelicons: A world of personalized file folder icons to transform your PC into a reflection of your style.',
     preview: '/src/webp/himynameisapp.webp',
     liveLink: 'https://himynameisapp.com',
     githubLink: null,
   },
+  
 ]
 
 export default function Projects() {
