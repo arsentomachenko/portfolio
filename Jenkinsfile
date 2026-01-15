@@ -11,7 +11,7 @@ node --version'''
 
     stage('Clone Project') {
       steps {
-        git(url: 'https://github.com/arsentomachenko/portfolio.git', branch: 'main')
+        git(url: 'https://github.com/arsentomachenko/portfolio.git', branch: 'main', changelog: true, credentialsId: 'GitHub', poll: true)
       }
     }
 
