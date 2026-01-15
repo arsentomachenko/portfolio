@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('Check NPM & Node Version') {
       steps {
-        sh '''sh \'echo just Checking NPM & Node Version\'
-sh \'npm --version\'
-sh \'node --version\''''
+        sh '''echo just Checking NPM & Node Version
+npm --version
+node --version'''
       }
     }
 
@@ -17,8 +17,8 @@ sh \'node --version\''''
 
     stage('install Dependencies') {
       steps {
-        sh '''sh \'cd portfolio\'
-sh \'npm install\''''
+        sh '''cd portfolio
+npm install'''
       }
     }
 
